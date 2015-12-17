@@ -189,8 +189,8 @@ public class TianKong extends Activity {
 				} else {
 					
 					textView4.setTextColor(Color.RED);
-					textView4.setText("答错了！正确答案是："+db1);	
-					Toast.makeText(TianKong.this, "上一道题的题目为"+str, Toast.LENGTH_LONG).show();
+					textView4.setText("答错了,题目是:"+str+"                   正确答案是："+db1);	
+					//Toast.makeText(TianKong.this, "上一道题的题目为"+str, Toast.LENGTH_LONG).show();
 					ed1.setText("");
 					sp.play(no, 1, 1, 0, 0, 1);
 				}
